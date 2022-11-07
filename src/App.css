@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  padding: 0.5rem 5rem;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+}
+#navbarTogglerDemo01 a {
+  border-bottom: 2px solid transparent;
+}
+#navbarTogglerDemo01 a {
+  border-bottom: 2px solid transparent;
+}
+#navbarTogglerDemo01 a:hover {
+  border-bottom: 2px solid #f9bc07;
+}
+.homeDiv {
+  background-image: url(https://c0.wallpaperflare.com/preview/813/237/71/blur-blurred-background-boutique-clothes.jpg);
+  height: 30rem;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#card {
+  background: #e5e5e5;
+}
+.productCard {
+  height: 28rem;
+  width: 16rem;
+  background: #e5e5e5 !important;
+  border: none !important;
+  box-shadow: 15px 20px 20px rgba(0, 0, 0, 0.3), inset 4px 4px 10px white;
+  border-radius: 10px !important;
+}
+
+.price-2 {
+  color: green;
+}
